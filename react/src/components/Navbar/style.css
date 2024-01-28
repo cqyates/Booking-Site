@@ -1,6 +1,8 @@
 .navbar {
   font-family: 'Bad Script', cursive;
-  border: 1px solid white; 
+  border-top: 2px solid white; 
+  max-width: 1280px;
+  margin: 0 auto
 }
 .nav-link {
   color: var(--lightOne)
