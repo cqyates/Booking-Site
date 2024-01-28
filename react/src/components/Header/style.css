@@ -1,0 +1,12 @@
+h1 {
+  text-align:right;
+  color: var(--lightOne);
+  font-family: 'Carattere', cursive;
+  font-weight: 400;
+  font-size: 70px;
+  margin-right: 2em
+}
+header {
+  background-image: linear-gradient(to top right, var(--gradOne), var(--gradTwo));
+  padding: 2em 0
+}
