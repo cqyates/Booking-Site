@@ -1,9 +1,9 @@
 #root {
- width: 100vw;
+  width: 100vw;
   margin: 0 auto;
   padding: 0;
   text-align: center;
-
+  background-color: var(--backOne);
 }
 #main {
   background-image: linear-gradient(to top right, var(--gradOne), var(--gradTwo));
