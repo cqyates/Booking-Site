@@ -1,0 +1,38 @@
+#about-section {
+  display: flex;
+  height: 80vh;
+  margin-top:2em;
+ text-align: left;
+}
+#sidecar-content {
+  width: 30%;
+  padding: 2em
+}
+#about-main {
+  border: 1px solid grey;
+  width: 70%;
+  padding: 2em;
+  background-color: var(--lightOne);
+  height: fit-content;
+  border-radius: 5px
+}
+#sidecar-content h3 {
+  color: var(--lightOne)
+}
+#about-main h3 {
+  font-size: 40px
+}
+#process h3 {
+  margin: 1em 0
+}
+ul {
+  list-style-type: none;
+  text-align: left;
+  padding: 0
+}
+
+li, #sidecar-content p {
+  font-size: 14pt;
+  line-height: 30pt;
+  font-weight: bold
+}
