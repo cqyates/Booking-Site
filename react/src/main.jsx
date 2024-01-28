@@ -6,12 +6,9 @@ import App from './App.jsx';
 import './index.css';
 
 import ErrorPage from './pages/Error.jsx';
-import HomePage from './pages/Home';
-import CurrentProjectsPage from './pages/Current';
-import PortfolioPage from './pages/Portfolio';
-import SkillsPage from './pages/Skills';
-import ResumePage from './pages/Resume';
-import StudentsPage from "./pages/Students"
+import AboutPage from './pages/Learn';
+import BookingPage from './pages/Booking';
+import ContactPage from './pages/Message';
 
 
 const router = createBrowserRouter([
@@ -22,27 +19,15 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <HomePage />,
+        element: <AboutPage />,
       },
       {
-        path: 'current',
-        element: <CurrentProjectsPage />,
+        path: 'book',
+        element: <BookingPage />,
       },
       {
-        path: 'portfolio',
-        element: <PortfolioPage />,
-      },
-      {
-        path: 'skills',
-        element: <SkillsPage />,
-      },
-      {
-        path: 'resume',
-        element: <ResumePage/>,
-      },
-      {
-        path: 'students',
-        element: <StudentsPage />,
+        path: 'message',
+        element: <ContactPage />,
       },
     ],
   },
