@@ -25,10 +25,6 @@ const router = createBrowserRouter([
         path: 'book',
         element: <BookingPage />,
       },
-      {
-        path: 'message',
-        element: <ContactPage />,
-      },
     ],
   },
 ]);

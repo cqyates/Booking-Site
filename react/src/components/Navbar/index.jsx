@@ -15,10 +15,7 @@ const HeaderNav = () => {
               <Nav.Link className="nav-link" as={Link} to="/">
                 Learn More
               </Nav.Link>
-              <Nav.Link className="nav-link" as={Link} to="/message">
-                Send a Message
-              </Nav.Link>
-              
+             
           </Nav>
         </Navbar.Collapse>
       </Container>
