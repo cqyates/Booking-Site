@@ -2,7 +2,7 @@ import Calendar from "../../components/Calendar"
 
 const CalendarPage = () => {
   return (
-      <div>
+      <div className="main">
         <Calendar/>
       </div>
   )

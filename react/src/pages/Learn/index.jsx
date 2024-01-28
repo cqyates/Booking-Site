@@ -1,7 +1,7 @@
 import './style.css';
 const AboutPage = () => {
   return (
-    <div id="about-section">
+    <div className="main" id="about-section">
       <div id="sidecar-content">
         <div>
           <h3>Rates</h3>
