@@ -8,7 +8,6 @@ import './index.css';
 import ErrorPage from './pages/Error.jsx';
 import AboutPage from './pages/Learn';
 import BookingPage from './pages/Booking';
-import ContactPage from './pages/Message';
 
 
 const router = createBrowserRouter([
